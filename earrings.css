@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.gold-earrings-collection {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gold-earrings-collection h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.earrings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    justify-items: center;
+}
+
+.earring-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.earring-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.earring-item:hover {
+    transform: translateY(-20px);
+}
+
+.earring-item h3 {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.earring-item p {
+    font-size: 1rem;
+    color: #333;
+}
